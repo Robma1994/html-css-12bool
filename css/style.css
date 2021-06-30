@@ -1,0 +1,34 @@
+.conteiner div[class*="col"] {
+    height: 50px;
+    border: 1px solid black;
+    padding: 10px 10px;
+}
+
+.row .row > [class*="col"]{
+    height: 30px;
+    border: 1px solid black;
+}
+
+.conteiner > div.col-xs-offset-12{
+    border: none;
+}
+
+.blue {
+    background-color: blue;
+}
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.brown {
+    background-color: brown;
+}
+
+.violet {
+    background-color: violet;
+}
+
