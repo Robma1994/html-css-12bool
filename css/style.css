@@ -1,34 +1,30 @@
-.conteiner div[class*="col"] {
+.con div[class*="col"] {
     height: 50px;
-    border: 1px solid black;
+    border: 1px solid white;
     padding: 10px 10px;
 }
 
-.row .row > [class*="col"]{
+.row > [class*="col"] > [class*="col"]{
     height: 30px;
-    border: 1px solid black;
+    border: 1px solid white;
 }
 
-.conteiner > div.col-xs-offset-12{
-    border: none;
+.con{
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    margin-bottom: 50px;
 }
 
+.white {
+    color: white;
+}
 .blue {
     background-color: blue;
 }
-.red {
-    background-color: red;
+
+.green {
+    background-color: green;
 }
 
-.yellow {
-    background-color: yellow;
-}
-
-.brown {
-    background-color: brown;
-}
-
-.violet {
-    background-color: violet;
-}
 
